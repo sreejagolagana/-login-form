@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
+    background-image: linear-gradient(pink ,green);
+    min-height: 100vh;         /* full viewport height */
+    margin: 0;                 /* remove default margin */
+}
+
+.wrapper {
+    max-width: 600px;
+    width: 50%;
+    background: white;
+    border: 5px;
+    border-radius: 10px;
+
+}
+
+#heading {
+    text-align: center;
+}
+
+.input-box {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.button-btn:hover {
+    background-color: #285bb5;
+    cursor: pointer;
+}
